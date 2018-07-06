@@ -41,7 +41,7 @@ All design and code must be implemented and tested within the month-long deadlin
 # 2. Architectural Strategies 
 ## 2.1 Reuse
 
-There are no existing code components being used in this project.
+The application will use the Bluetooth Mesh Networking Library.
 
 ## 2.2 Currently
 
