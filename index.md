@@ -4,7 +4,7 @@
    * [1.2 End User Constraints](#12-general-constraints)
    * [1.1 Goals and Guidelines](#13-goals-and-guidelines)  
 - [2. Architectural Strategies](#2-architectural-strategies)
-   * [2.1 Reuse](#21-reuse)
+   * [2.1 Third-Party References](#21-third-party-references)
    * [2.2 Currently](#22-currently)
    * [2.3 Future](#23-future)  
  - [3. Interfaces](#3-interfaces)
@@ -39,7 +39,7 @@ Shout is intended to allow people in close vicinity to chat to each other anonym
 All design and code must be implemented and tested within the month-long deadline. All material that has been worked on, will be documented accordingly. Corresponding diagrams must be accurate and complete.
 
 # 2. Architectural Strategies 
-## 2.1 Reuse
+## 2.1 Third Party References
 
 The application will use the Bluetooth Mesh Networking Library.
 
