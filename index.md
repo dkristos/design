@@ -5,7 +5,7 @@
    * [1.3 References](#13-references)
 - [2. Decomposition Description](#2-decomposition-description)
    * [2.1 Module Decomposition](#21-module-decomposition)
-   	** [2.1.1 Framework Package Interactions](#211-framework-package-interactions)
+   	 - [2.1.1 Framework Package Interactions](#211-framework-package-interactions)
 	- [2.1.2 Shout! Service Package](#212-shout!-service-package)
 	- [2.1.3 Shout! Model Class Diagram](#213-shout!-model-class-diagram)
 	- [2.1.4 Shout! App Package Diagram](#214-shout!-app-package-diagram)
