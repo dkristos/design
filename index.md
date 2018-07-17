@@ -63,6 +63,10 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 <iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/c69ce3f8-67ac-4a84-aca1-aacb30c9be36" id="YWMJamWYOgXw"></iframe>
 
+### Android
+
+<iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/5fbcf4b6-55c7-4a11-ac40-b141330de8d4" id="X0cWvJwv3wnA"></iframe>
+
 ### 2.1.4 Shout! App Package Diagram
 
 ### 2.1.5 Shout! App Views and Controllers Diagram
