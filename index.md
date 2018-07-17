@@ -64,7 +64,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 # 3. Interface Descriptions
 ## 3.1 Colour Guidelines 
 
-<img src="https://github.com/CP317S18/design/blob/master/ColourGuidelines.png?raw=true" align="left" hspace="150" />
+<img src="https://github.com/CP317S18/design/blob/master/ColourGuidelines.png?raw=true" align="left" hspace="50" />
 
 ## 3.2 Font Guidelines 
 
@@ -79,11 +79,13 @@ This design shows how the user interacts with the front end of the app (GUI), an
 ## 3.4 iOS Module Interface 
 ### 3.4.1 Bluetooth View 
 
-<img src="https://github.com/CP317S18/design/blob/master/BluetoothView.png?raw=true" style="width:2000px" align="left" hspace="20"/> 
+<img src="https://github.com/CP317S18/design/blob/master/BluetoothView.png?raw=true" align="left" hspace="20"/> 
 
-Identification: Bluetooth View
+Identification
+- Bluetooth View
 
-Purpose: Instructs users to turn on their bluetooth in order to use Shout! This view will only be presented to the user if they do not have bluetooth already enabled.
+Purpose
+- Instructs users to turn on their bluetooth in order to use Shout! This view will only be presented to the user if they do not have bluetooth already enabled.
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
