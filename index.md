@@ -82,6 +82,8 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ## 3.3 App Icons
 
+<img src="https://cp317s18.github.io/design/appIcon.PNG" align="left" hspace="150" />
+
 ## 3.4 iOS Module Interface 
 ### 3.4.1 Introduction View 
 
