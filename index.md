@@ -101,9 +101,6 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |btnSettings|Button| Brings user to the Settings View where they can change preferences | → Setting View |
 |txtfieldUsername | Text Field | Required username input before entrance to Chat View This is how the user will be identified in the chat. Must be distinct and 15 characters in length| |
 
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
 ### 3.4.3 Chat View 
 
 <img src="https://github.com/CP317S18/design/blob/master/ChatID.png" align="left" hspace="20"/>
@@ -117,8 +114,6 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |tableChat|Table|Displays the messages sent and received by application users. <p><p>Username Column: Colour is randomly assigned from web safe colour collection. Randomization is local to the user application. </p></p> <p>Message Column: Display message sent by users. Message gets text wrapped if length exceeds one line</p>||
 
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
 ### 3.4.4 Settings View
 
 <img src="https://github.com/CP317S18/design/blob/master/SettingID.png" size="200" align="left" hspace="20"/>
@@ -130,11 +125,9 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |btnReport|Button|Brings user to Report View <p><p>Within a table with two columns: image and label</p></p> |→ Report View|
 |btnAbout|Button|Brings user to About View <p><p>Within a table with two columns: image and label</p></p> |→ About View|
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
 ### 3.4.5 Notification View 
 
-<img src="https://github.com/CP317S18/design/blob/master/NotificationID.png" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/NotificationID.png" size="200" align="left" hspace="20"/>
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -155,8 +148,6 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |lblDescribe|Label|Instructs user how to send the report.| |
 |txtfieldReport|Text Field|User inputs the message they want to send to the developer team. <p><p>If report is successfully received, text field will be cleared of the messaged typed.</p></p>|
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
 ### 3.4.7 About View 
 
 <img src="https://github.com/CP317S18/design/blob/master/AboutID.png" size="200" align="left" hspace="20"/>
@@ -167,8 +158,6 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |btnTOS|Button|Brings user to terms of service and privacy policy documents. <p><p>Within a table: label and arrow button</p></p>|→ Terms of Service and Privacy Policy documents|
 |btnSources|Button|Brings user to Sources View with that credits all the third-party sources that were used to create the application <p><p>Within a table: label and arrow button</p></p>|→ Sources View|
 |btnTeam|Button|Brings user to Team View with details about the developer team <p><p>Within a table: label and arrow button</p></p>|→ Team View|
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 # 4. Detailed Design
 ## 4.1 Module Detailed Design
