@@ -80,7 +80,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 ## 3.4 Module Interface 
 ### 3.4.1 Bluetooth View 
 
-<img src="https://github.com/CP317S18/design/blob/master/BluetoothID.png" align="left" hspace="20"/>
+<img src="https://imgur.com/a/jsvuUEy" align="left" hspace="20"/>
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
