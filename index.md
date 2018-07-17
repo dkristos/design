@@ -105,6 +105,8 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 3.4.5 Message Settings View 
 
+<img src="https://cp317s18.github.io/design/MessageSettingsView.PNG" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 ### 3.4.6 Settings Report View 
 
 ### 3.4.7 Settings About View 
