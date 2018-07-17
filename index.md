@@ -11,7 +11,7 @@
    * [3.1 Colour Guidelines](#31-colour-guidelines)
    * [3.2 Font Guidelines](#32-font-guidelines)
    * [3.3 App Icons](#33-app-icons)
-   * [3.4 iOS Module Interface](#34-ios-module-interface)
+   * [3.4 Module Interface](#34-module-interface)
    	 - [3.4.1 Bluetooth View](#341-bluetooth-view)
 	 - [3.4.2 Home View](#342-home-view)
 	 - [3.4.3 Chat View](#343-chat-view)
@@ -76,7 +76,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 <img src="https://cp317s18.github.io/design/appIcon.PNG" align="left" hspace="150" />
 
-## 3.4 iOS Module Interface 
+## 3.4 Module Interface 
 ### 3.4.1 Bluetooth View 
 
 <img src="https://github.com/CP317S18/design/blob/master/BluetoothID.png" align="left" hspace="20"/>
