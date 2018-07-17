@@ -5,13 +5,9 @@
    * [1.3 References](#13-references)
 - [2. Decomposition Description](#2-decomposition-description)
    * [2.1 Module Decomposition](#21-module-decomposition)
-   	 - [2.1.1 Framework Package Interactions](#211-framework-package-interactions)
-	 - [2.1.2 Shout! Service Package](#212-shout!-service-package)
-	 - [2.1.3 Shout! Model Class Diagram](#213-shout!-model-class-diagram)
-	 - [2.1.4 Shout! App Package Diagram](#214-shout!-app-package-diagram)
-	 - [2.1.5 Shout! App Views and Controllers Diagram](#215-shout!-app-views-and-controllers-diagram)
-	 - [2.1.6 Shout! App Services Diagram](#216-shout!-app-services-diagram)  
- - [3. Interface Descriptions](#3-interface-descriptions)
+   	 - [2.1.1 Framework Package Interactions](#211-framework-package-interactions)	 
+	 - [2.1.2 Shout! Model Class Diagram](#212-shout!-model-class-diagram)
+- [3. Interface Descriptions](#3-interface-descriptions)
    * [3.1 Colour Guidelines](#31-colour-guidelines)
    * [3.2 Font Guidelines](#32-font-guidelines)
    * [3.3 App Icons](#33-app-icons)
@@ -57,21 +53,13 @@ This document is written following the guidelines of the IEEE Recommended Practi
 This design shows how the user interacts with the front end of the app (GUI), and then how the front end interacts with the backend
 <img src="https://cp317s18.github.io/design/topleveldiagram.png" align="left" hspace="70" />
 
-### 2.1.2 Shout! Service Package 
-
-### 2.1.3 Shout! Model Class Diagram
+### 2.1.2 Shout! Model Class Diagram
 
 <iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/c69ce3f8-67ac-4a84-aca1-aacb30c9be36" id="YWMJamWYOgXw"></iframe>
 
 ### Android
 
 <iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/5fbcf4b6-55c7-4a11-ac40-b141330de8d4" id="X0cWvJwv3wnA"></iframe>
-
-### 2.1.4 Shout! App Package Diagram
-
-### 2.1.5 Shout! App Views and Controllers Diagram
-
-### 2.1.6 Shout! App Services Diagram 
 
 # 3. Interface Descriptions
 ## 3.1 Colour Guidelines 
