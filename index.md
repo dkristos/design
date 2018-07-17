@@ -55,7 +55,7 @@ This document is written following the guidelines of the IEEE Recommended Practi
 ### 2.1.1 Framework Package Interactions 
 
 This design shows how the user interacts with the front end of the app (GUI), and then how the front end interacts with the backend
-<img src="https://cp317s18.github.io/design/topleveldiagram.jpeg" align="left" hspace="70" />
+<img src="https://cp317s18.github.io/design/topleveldiagram.jpg" align="left" hspace="70" />
 
 ### 2.1.2 Shout! Service Package 
 
