@@ -109,7 +109,11 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 3.4.6 Settings Report View 
 
+<img src="https://cp317s18.github.io/design/SettingReportView.PNG" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 ### 3.4.7 Settings About View 
+
+<img src="https://cp317s18.github.io/design/SettingAboutView.PNG" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 # 4. Detailed Design
 ## 4.1 Module Detailed Design
