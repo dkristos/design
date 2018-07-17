@@ -95,9 +95,8 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 3.4.3 Chat View 
 
-<img src="https://cp317s18.github.io/design/ChatView1.PNG" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-<img src="https://cp317s18.github.io/design/ChatView2.PNG" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://cp317s18.github.io/design/ChatView1.PNG" align="left" hspace="20"/>
+<img src="https://cp317s18.github.io/design/ChatView2.PNG" align="left" hspace="20"/>
 
 ### 3.4.4 Settings View
 
