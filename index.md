@@ -87,11 +87,11 @@ This design shows how the user interacts with the front end of the app (GUI), an
 ## 3.4 iOS Module Interface 
 ### 3.4.1 Introduction View 
 
-<img src="https://cp317s18.github.io/design/IntroView.PNG" style="width:200px" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://cp317s18.github.io/design/IntroView.PNG" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### 3.4.2 Home View 
 
-<img src="https://cp317s18.github.io/design/HomeView.PNG" style="width:200px" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://cp317s18.github.io/design/HomeView.PNG" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### 3.4.3 Chat View 
 
