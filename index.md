@@ -64,39 +64,22 @@ This design shows how the user interacts with the front end of the app (GUI), an
 # 3. Interface Descriptions
 ## 3.1 Colour Guidelines 
 
-<img src="https://github.com/CP317S18/design/blob/master/ColourGuidelines.png?raw=true" align="left" hspace="50" />
+<img src="https://cp317s18.github.io/design/colourtable.PNG" align="left" hspace="150" />
 
 ## 3.2 Font Guidelines 
 
 - iOS: System Default (San Francisco)
 - Android: Roboto
-- Username colour: web safe colours
+- Username colour: Web Safe Colours
 
 ## 3.3 App Icons
 
-<img src="https://cp317s18.github.io/design/appIcon.PNG" align="left" hspace="75" />
+<img src="https://cp317s18.github.io/design/appIcon.PNG" align="left" hspace="150" />
 
 ## 3.4 iOS Module Interface 
-### 3.4.1 Bluetooth View 
+### 3.4.1 Introduction View 
 
-<img src="https://github.com/CP317S18/design/blob/master/BluetoothView.png?raw=true" align="left" hspace="20"/> 
-
-Identification
-- Bluetooth View
-
-Purpose
-- Instructs users to turn on their bluetooth in order to use Shout! This view will only be presented to the user if they do not have bluetooth already enabled.
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-
-| Field  | Type | Description |  Gesture |
-| ------------- | ------------- | ------------- | ------------- |
-| lblChat  | Label  | Describes purpose of application  |   |
-| imgBluetooth  | Image | Visualization of the Bluetooth symbol  | |
-| btnStart  | Button | Allows entrance to application only after bluetooth has been enable.  | →  Home View |
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/BluetoothID.png?raw=true" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### 3.4.2 Home View 
 
