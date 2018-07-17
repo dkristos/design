@@ -58,7 +58,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 2.1.2 Shout! Service Package 
 
-### 2.1.3 Shout! Model Class Diagarm
+### 2.1.3 Shout! Model Class Diagram
 
 ### 2.1.4 Shout! App Package Diagram
 
@@ -90,4 +90,26 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 # 4. Detailed Design
 ## 4.1 Module Detailed Design
+
+setUsername()
+ 1. takes the user created string
+ 2. new everytime the user re-enters the chat (temporary)
+
+joinChat()
+ 1. allows user to join chat using encryption key
+ 2. automatically creates a Message object 
+ 3. user now sees all the chats from all connecting nodes, within range 
+ 
+leaveChat()
+ 1. user now leaves the message loop
+ 2. they no longer recieve updates from the chat
+
+receiveMessage()
+ 1. application of chat interface
+ 2. using the mesh network and BLE, this enables the chat to accept and view messages from other users (nodes)
+
+sendMessage()
+ 1. application of chat interface 
+ 2. using the mesh network and BLE, this enables the chat to send their message to all connected users (nodes)
+
 
