@@ -72,7 +72,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 # 3. Interface Descriptions
 ## 3.1 Colour Guidelines 
 
-<img src="https://cp317s18.github.io/design/colourtable.PNG" align="left" hspace="100" />
+<img src="https://cp317s18.github.io/design/colourtable.PNG" align="left" hspace="200" />
 
 ## 3.2 Font Guidelines 
 
