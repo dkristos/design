@@ -61,6 +61,8 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 2.1.3 Shout! Model Class Diagram
 
+<iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/c69ce3f8-67ac-4a84-aca1-aacb30c9be36" id="YWMJamWYOgXw"></iframe>
+
 ### 2.1.4 Shout! App Package Diagram
 
 ### 2.1.5 Shout! App Views and Controllers Diagram
