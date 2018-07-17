@@ -12,13 +12,13 @@
    * [3.2 Font Guidelines](#32-font-guidelines)
    * [3.3 App Icons](#33-app-icons)
    * [3.4 iOS Module Interface](#34-ios-module-interface)
-   	 - [3.4.1 Introduction View](#341-introduction-view)
+   	 - [3.4.1 Bluetooth View](#341-bluetooth-view)
 	 - [3.4.2 Home View](#342-home-view)
 	 - [3.4.3 Chat View](#343-chat-view)
 	 - [3.4.4 Settings View](#344-settings-view)
-	 - [3.4.5 Message Settings View](#345-message-settings-view)
-	 - [3.4.6 Settings Report View](#346-settings-report-view)
-	 - [3.4.7 Settings About View](#347-settings-about-view)
+	 - [3.4.5 Notification View](#345-notification-view)
+	 - [3.4.6 Report View](#346-report-view)
+	 - [3.4.7 About View](#347-about-view)
  - [4. Detailed Design](#4-detailed-design)
     * [4.1 Module Detailed Design](#41-module-detailed-design)
      
@@ -64,7 +64,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 # 3. Interface Descriptions
 ## 3.1 Colour Guidelines 
 
-<img src="https://cp317s18.github.io/design/colourtable.PNG" align="left" hspace="150" />
+<img src="https://github.com/CP317S18/design/blob/master/ColourGuidelines.png" align="left" hspace="50" />
 
 ## 3.2 Font Guidelines 
 
@@ -77,35 +77,34 @@ This design shows how the user interacts with the front end of the app (GUI), an
 <img src="https://cp317s18.github.io/design/appIcon.PNG" align="left" hspace="150" />
 
 ## 3.4 iOS Module Interface 
-### 3.4.1 Introduction View 
+### 3.4.1 Bluetooth View 
 
-<img src="https://github.com/CP317S18/design/blob/master/BluetoothID.png?raw=true" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/BluetoothID.png" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### 3.4.2 Home View 
 
-<img src="https://cp317s18.github.io/design/HomeView.PNG" style="width:2000px" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/HomeID.png" style="width:2000px" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### 3.4.3 Chat View 
 
-<img src="https://cp317s18.github.io/design/ChatView1.PNG" align="left" hspace="20"/>
-<img src="https://cp317s18.github.io/design/ChatView2.PNG" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/ChatID.png" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/><br/><br/>
 
 ### 3.4.4 Settings View
 
-<img src="https://cp317s18.github.io/design/SettingsView.PNG" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/SettingID.png" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-### 3.4.5 Message Settings View 
+### 3.4.5 Notification View 
 
-<img src="https://cp317s18.github.io/design/MessageSettingsView.PNG" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/NotificationID.png" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-### 3.4.6 Settings Report View 
+### 3.4.6 Report View 
 
-<img src="https://cp317s18.github.io/design/SettingReportView.PNG" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/ReportID.png" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-### 3.4.7 Settings About View 
+### 3.4.7 About View 
 
-<img src="https://cp317s18.github.io/design/SettingAboutView.PNG" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="https://github.com/CP317S18/design/blob/master/AboutID.png" size="200" align="left" hspace="20"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 # 4. Detailed Design
 ## 4.1 Module Detailed Design
