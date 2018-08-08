@@ -4,7 +4,7 @@
    * [1.2 Scope](#12-scope)
    * [1.3 References](#13-references)
 - [2. Planned Implementation](#2-planned-implementation)
-   * [2.1.1 Choice of Language](#21-choice-of-language)
+   * [2.1.1 Choice of Language](#211-choice-of-language)
    * [2.1.2 Previously Planned Language](#212-previously-planned-language)
    * [2.2 Resources Referenced] (#22-resources-referenced)
    * [2.3 Development Team] (#23-development-team)
@@ -56,37 +56,48 @@ The intended audience for this document will be the developers. They will use th
 
 This document is written following the guidelines of the IEEE Recommended Practice for Software Design Descriptions. It outlines the module, process, and data dependencies, as well as their detailed design and decomposition.
 
-# 2. Planned Implementation
-## 2.1 Choice of Language
+# 2 Planned Implementation
+### 2.1.1 Choice of Language
 
 On the iOS side of *Shout!*, Swift is used to implement the app. Both Swift and Objective-C are the only languages that have been used to develop iOS applications in terms of compatibility. Swift is used as the main language as it was specifically designed by Apple, making it compliant with the standards that Apple has set. Objective-C is sparsely used in order to implement operational functions not available in the current version of Swift. 
 
 For the Android side of *Shout!*, Java is used to implement the app. It is the the primary development language for Android. As such, there are numerous of resources available for reference and support. Since this application will be running on different hardware platforms (Pixel, Samsung Galaxy, HTC), Java is the most efficient language to compile on these different platforms. 
 
-## 2.1.2 Previously Planned Language
+### 2.1.2 Previously Planned Language
 
 Flutter is an open-source application used to develop apps for both iOS and Android using one language called Dart, making it very portable. This way, applications are consistent on both types of devices. Since Shout! was intended to be created on both platforms, Flutter was the initial plan in terms of app development. This suggestion was later dismissed as there were several issues in using this method. Installation was slow and hard to understand, there weren’t many resources on several topics such as layout, or functionality and the capabilities of the application did not meet our needs. For instance, bluetooth integration was difficult to pursue. It was also discovered that certain methods or plugins had to be rewritten in Dart, which would have made the process more time consuming than it needed to be. Using each platform’s native development software, Android Studio and XCode, was chosen instead, as outlined in 3.1.
 
 ## 2.2 Resources Referenced
 
 [Settings Icon](https://www.flaticon.com/free-icon/settings_126472#term=SETTING&page=1&position=1)
+
 [Bluetooth Icon](https://www.flaticon.com/free-icon/bluetooth_149406)
+
 [iOS Design Standards and Colours](https://iosdesignkit.io/ios-11-gui/)
+
 [Android Design Standards and Colours](https://blog.figma.com/material-design-figma-styles-98a7f0e2735e)
 
+
 ## 2.3 Development Team
+
 **Core**
+
 Greg, Adam, Benjamin, Michael
 
 **UI**
+
 Jared, Jessica, Michelle, Navreet
 
 **Android**
+
 Team Leaders: Benjamin 
+
 Members: Yannick, Alex, Andrew, Cristian, Duncan, Emily, Farhan, Jared, Jayanath, King, Navreet, Rumsha, Pranav
 
 **iOS**
+
 Team Leaders: Greg, Adam
+
 Members: Jessica, Malin, Michelle, Tiffany, Delina, Harry, Ranusha, Christian
 
 ## 2.4 Integration
