@@ -4,8 +4,11 @@
    * [1.2 Scope](#12-scope)
    * [1.3 References](#13-references)
 - [2. Planned Implementation](#2-planned-implementation)
-   * [2.1 Choice of Language](#21-choice-of-language)
+   * [2.1.1 Choice of Language](#21-choice-of-language)
    * [2.1.2 Previously Planned Language](#212-previously-planned-language)
+   * [2.2 Resources Referenced] (#22-resources-referenced)
+   * [2.3 Development Team] (#23-development-team)
+   * [2.4 Integration] (#24-integration)
 - [3. Decomposition Description](#3-decomposition-description)
    * [3.1 Module Decomposition](#31-module-decomposition)
    	 - [3.1.1 Framework Package Interactions](#311-framework-package-interactions)	 
@@ -63,6 +66,31 @@ For the Android side of *Shout!*, Java is used to implement the app. It is the t
 ## 2.1.2 Previously Planned Language
 
 Flutter is an open-source application used to develop apps for both iOS and Android using one language called Dart, making it very portable. This way, applications are consistent on both types of devices. Since Shout! was intended to be created on both platforms, Flutter was the initial plan in terms of app development. This suggestion was later dismissed as there were several issues in using this method. Installation was slow and hard to understand, there weren’t many resources on several topics such as layout, or functionality and the capabilities of the application did not meet our needs. For instance, bluetooth integration was difficult to pursue. It was also discovered that certain methods or plugins had to be rewritten in Dart, which would have made the process more time consuming than it needed to be. Using each platform’s native development software, Android Studio and XCode, was chosen instead, as outlined in 3.1.
+
+## 2.2 Resources Referenced
+
+[Settings Icon](https://www.flaticon.com/free-icon/settings_126472#term=SETTING&page=1&position=1)
+[Bluetooth Icon](https://www.flaticon.com/free-icon/bluetooth_149406)
+[iOS Design Standards and Colours](https://iosdesignkit.io/ios-11-gui/)
+[Android Design Standards and Colours](https://blog.figma.com/material-design-figma-styles-98a7f0e2735e)
+
+## 2.3 Development Team
+**Core**
+Greg, Adam, Benjamin, Michael
+
+**UI**
+Jared, Jessica, Michelle, Navreet
+
+**Android**
+Team Leaders: Benjamin 
+Members: Yannick, Alex, Andrew, Cristian, Duncan, Emily, Farhan, Jared, Jayanath, King, Navreet, Rumsha, Pranav
+
+**iOS**
+Team Leaders: Greg, Adam
+Members: Jessica, Malin, Michelle, Tiffany, Delina, Harry, Ranusha, Christian
+
+## 2.4 Integration
+The core team is responsible for implementing the bluetooth functionalities and ensuring that the platforms are able to communicate with each other. This will be done by integrating the logic artifacts from the top down. Each individual operating system team will use bottom up integration to implement the operational artifacts, such as sending a message, displaying a message or toggling notifications. These two integrations will be done in parallel, resulting in a sandwich integration.
 
 # 3. Decomposition Description 
 ## 3.1 Module Decomposition
@@ -203,11 +231,11 @@ sendMessage()
  2. using the mesh network and BLE, this enables the chat to send their message to all connected users (nodes)
 
 # 6. Maintenance
-## 6.1.1 Corrective
+## 6.1 Corrective
 
 A feature on *Shout!* allows users to report bugs or issues regarding the functionality of the app. Shout! aims to use this information to perform corrective maintenance by receiving these requests, analyzing how it would be solved, and documenting all fixes implemented.
 
-## 6.1.2 Perfective
+## 6.2 Perfective
 
 Due to the time constraint, the development of the app was simplified to the necessary features needed in order to ensure the application is executable. New features and capabilities are to be implemented once the application is reliable and complete through perfective maintenance.
 
@@ -218,6 +246,6 @@ Additional features or ideas will be taken from popular requests from users, new
 * Adding additional colour schemes for the app (themes)
 * Adding the ability to change the application icon
 
-## 6.1.3 Adaptive
+## 6.3 Adaptive
 
 As iOS and Android versions are updated, *Shout!* will be updated as necessary to adapt to the changing compatibilities though adaptive maintenance. 
