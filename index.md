@@ -36,7 +36,7 @@ This design document will describe the architecture and system design of Shout!
 
 The intended audience for this document will be the developers. They will use this document as an aid in development and to see all of the software requirements for Shout!
 
-## 1.3 References
+## 1.4 References
 
 - Software Requirements Specification document for Shout!
 - Analysis document for Shout!
@@ -45,6 +45,17 @@ The intended audience for this document will be the developers. They will use th
 ## 1.4 Overview 
 
 This document is written following the guidelines of the IEEE Recommended Practice for Software Design Descriptions. It outlines the module, process, and data dependencies, as well as their detailed design and decomposition.
+
+# 3. Planned Implementation
+## 3.1 Choice of Language
+
+On the iOS side of *Shout!*, Swift is used to implement the app. Both Swift and Objective-C are the only languages that have been used to develop iOS applications in terms of compatibility. Swift is used as the main language as it was specifically designed by Apple, making it compliant with the standards that Apple has set. Objective-C is sparsely used in order to implement operational functions not available in the current version of Swift. 
+
+For the Android side of *Shout!*, Java is used to implement the app. It is the the primary development language for Android. As such, there are numerous of resources available for reference and support. Since this application will be running on different hardware platforms (Pixel, Samsung Galaxy, HTC), Java is the most efficient language to compile on these different platforms. 
+
+## 3.1.2 Previously Planned Language
+
+Flutter is an open-source application used to develop apps for both iOS and Android using one language called Dart, making it very portable. This way, applications are consistent on both types of devices. Since Shout! was intended to be created on both platforms, Flutter was the initial plan in terms of app development. This suggestion was later dismissed as there were several issues in using this method. Installation was slow and hard to understand, there weren’t many resources on several topics such as layout, or functionality and the capabilities of the application did not meet our needs. For instance, bluetooth integration was difficult to pursue. It was also discovered that certain methods or plugins had to be rewritten in Dart, which would have made the process more time consuming than it needed to be. Using each platform’s native development software, Android Studio and XCode, was chosen instead, as outlined in 3.1.
 
 # 2. Decomposition Description 
 ## 2.1 Module Decomposition
@@ -184,4 +195,22 @@ sendMessage()
  1. application of chat interface 
  2. using the mesh network and BLE, this enables the chat to send their message to all connected users (nodes)
 
+# 5. Maintenance
+##5.1.1 Corrective
 
+A feature on *Shout!* allows users to report bugs or issues regarding the functionality of the app. Shout! aims to use this information to perform corrective maintenance by receiving these requests, analyzing how it would be solved, and documenting all fixes implemented.
+
+##5.1.2 Perfective
+
+Due to the time constraint, the development of the app was simplified to the necessary features needed in order to ensure the application is executable. New features and capabilities are to be implemented once the application is reliable and complete through perfective maintenance.
+
+Additional features or ideas will be taken from popular requests from users, new or existing features on other messaging platforms and more. Some examples of features that is on the shortlist to be implemented in the application is listed below:
+* Sharing Location/Viewing the distance of people connected
+* Add a time-out interval to prevent spam of messages from certain user
+* Adding the ability to filter the messages through the use of hashtag
+* Adding additional colour schemes for the app (themes)
+* Adding the ability to change the application icon
+
+##5.1.3 Adaptive
+
+As iOS and Android versions are updated, *Shout!* will be updated as necessary to adapt to the changing compatibilities though adaptive maintenance. 
