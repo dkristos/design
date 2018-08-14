@@ -286,6 +286,7 @@ Additional features or ideas will be taken from popular requests from users, new
 * Adding the ability to filter the messages through the use of hashtag
 * Adding additional colour schemes for the app (themes)
 * Adding the ability to change the application icon
+* Seeing previous chat messages sent shortly before entering chat
 
 ## 6.3 Adaptive
 
