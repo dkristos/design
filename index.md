@@ -154,6 +154,9 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 <img src="https://cp317s18.github.io/design/HomeID.png" align="left" hspace="20" />
 
+| Identification | Purpose |
+| ----- | ---- |
+|Home View| Communicates to the user the number of reachable people using the application from their current location. View instructs user to enter a temporary username. A username is required for the button to bring the user to the Chat View. Users can also access the application settings by pressing button, which will bring them to the Settings View. View will have a quick access to the application’s privacy policy and terms of service documents.|
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -168,6 +171,10 @@ This design shows how the user interacts with the front end of the app (GUI), an
 ### 4.4.3 Chat View 
 <img src="https://cp317s18.github.io/design/ChatID.png" align="left" hspace="20" />
 
+| Identification | Purpose |
+| ----- | ---- |
+|Chat View| Chat Interface where the user can send and view messages to reachable application users. View will display chat messages at full display until user taps on the text field for message input. Upon doing so, chat view will get pushed up to display keyboard. Users will be updated of the number of reachable users. Additionally, they will be able to refresh the chat view or go back to the Home View.|
+
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
 |lblNumber|Label|Dynamic number displaying the amount of reachable people from user current position||
@@ -181,6 +188,10 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 <img src="https://cp317s18.github.io/design/SettingID.png" align="left" hspace="20" />
 
+| Identification | Purpose |
+| ----- | ---- |
+| Settings View | Interface allows user to change preferences, contact the developer team, and access application disclaimer pages. User will be able to go back to the Home View. |
+
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -192,6 +203,10 @@ This design shows how the user interacts with the front end of the app (GUI), an
 ### 4.4.5 Notification View 
 
 <img src="https://cp317s18.github.io/design/NotificationID.png" align="left" hspace="20" />
+
+| Identification | Purpose |
+| ----- | ---- |
+| Notifications View | Interface that allows user to customize how notifications will be sent and received from the application to the user’s device. User will be able to go back to the Settings View. |
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -205,6 +220,9 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 <img src="https://cp317s18.github.io/design/ReportID.png" align="left" hspace="20" />
 
+| Identification | Purpose |
+| ----- | ---- |
+| Report View  | Interface that allows user to notify the developer team of any bugs they’ve experienced while using the application. Internet connection is required in order to send the report. User will be able to go back to the Settings View. |
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -216,6 +234,11 @@ This design shows how the user interacts with the front end of the app (GUI), an
 ### 4.4.7 About View 
 
 <img src="https://cp317s18.github.io/design/AboutID.png" align="left" hspace="20" />
+
+
+| Identification | Purpose |
+| ----- | ---- |
+| About View  | Interface informs user with application information about the terms of service, sources used to create the application, and the developer. User will be able to go back to the Settings View.|
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
