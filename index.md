@@ -4,8 +4,8 @@
    * [1.2 Scope](#12-scope)
    * [1.3 References](#13-references)
 - [2. Planned Implementation](#2-planned-implementation)
-   * [2.1.1 Choice of Language](#211-choice-of-language)
-   * [2.1.2 Previously Planned Language](#212-previously-planned-language)
+   * [2.1 Choice of Language](#211-choice-of-language)
+   * [2.1.1 Previously Planned Language](#212-previously-planned-language)
    * [2.2 Resources Referenced](#22-resources-referenced)
    * [2.3 Development Team](#23-development-team)
    * [2.4 Integration](#24-integration)
@@ -57,7 +57,7 @@ The intended audience for this document will be the developers. They will use th
 This document is written following the guidelines of the IEEE Recommended Practice for Software Design Descriptions. It outlines the module, process, and data dependencies, as well as their detailed design and decomposition.
 
 # 2 Planned Implementation
-### 2.1.1 Choice of Language
+## 2.1 Choice of Language
 
 On the iOS side of *Shout!*, Swift is used to implement the app. Both Swift and Objective-C are the only languages that have been used to develop iOS applications in terms of compatibility. Swift is used as the main language as it was specifically designed by Apple, making it compliant with the standards that Apple has set. Objective-C is sparsely used in order to implement operational functions not available in the current version of Swift. 
 
