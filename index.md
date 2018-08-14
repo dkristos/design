@@ -34,7 +34,7 @@
      
 # 1. Introduction
 
-It is assumed that all of the users devices are compatible with Bluetooth Low Energy (BLE) with core specification version 4.0 and higher. This includes all iPhones 4s and higher, iPads generation 3 and higher, and any android devices version 4.3 and higher. The application will be available for download on the Apple App store and Anroid Play Store for free.
+It is assumed that all of the users devices are compatible with Bluetooth Low Energy (BLE) with core specification version 4.0 and higher. This includes all iPhones 5 and higher, iPads generation 3 and higher, and any android devices version 4.3 and higher. The application will be available for download on the Apple App store and Anroid Play Store for free.
 
 The application will only function within the limitations of the device’s own capabilities. It is assumed that all users using Shout! need to be within at least 200 feet of at least one other person in order to engage in conversation.	
 
