@@ -138,7 +138,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 ## 4.4 Module Interface 
 ### 4.4.1 Bluetooth View 
 
-<img src="https://github.com/CP317S18/design/blob/master/BluetoothID.png" align="left" hspace="20"/>
+<img src="https://cp317s18.github.io/design/BluetoothID.png" align="left" hspace="20" />
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -148,7 +148,8 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 4.4.2 Home View 
 
-<img src="https://github.com/CP317S18/design/blob/master/HomeID.png" style="width:2000px" align="left" hspace="20"/>
+<img src="https://cp317s18.github.io/design/HomeID.png" align="left" hspace="20" />
+
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -161,8 +162,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |txtfieldUsername | Text Field | Required username input before entrance to Chat View This is how the user will be identified in the chat. Must be distinct and 15 characters in length| |
 
 ### 4.4.3 Chat View 
-
-<img src="https://github.com/CP317S18/design/blob/master/ChatID.png" align="left" hspace="20"/>
+<img src="https://cp317s18.github.io/design/ChatID.png" align="left" hspace="20" />
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -175,7 +175,8 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 4.4.4 Settings View
 
-<img src="https://github.com/CP317S18/design/blob/master/SettingID.png" size="200" align="left" hspace="20"/>
+<img src="https://cp317s18.github.io/design/SettingID.png" align="left" hspace="20" />
+
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -186,7 +187,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 4.4.5 Notification View 
 
-<img src="https://github.com/CP317S18/design/blob/master/NotificationID.png" size="200" align="left" hspace="20"/>
+<img src="https://cp317s18.github.io/design/NotificationID.png" align="left" hspace="20" />
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -198,7 +199,8 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 4.4.6 Report View 
 
-<img src="https://github.com/CP317S18/design/blob/master/ReportID.png" size="200" align="left" hspace="20"/>
+<img src="https://cp317s18.github.io/design/ReportID.png" align="left" hspace="20" />
+
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
@@ -209,7 +211,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 ### 4.4.7 About View 
 
-<img src="https://github.com/CP317S18/design/blob/master/AboutID.png" size="200" align="left" hspace="20"/>
+<img src="https://cp317s18.github.io/design/AboutID.png" align="left" hspace="20" />
 
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
