@@ -170,7 +170,13 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |txtfieldInput|Text Field|User enters message to be sent to other reachable users||
 |btnBack|Button|Navigation Bar: Brings user back to Home View|→ Home View|
 |btnRefresh|Button|Navigation Bar: Refresh the Chat View|→ Chat View|
-|tableChat|Table|Displays the messages sent and received by application users. <p><p>Username Column: Colour is randomly assigned from web safe colour collection. Randomization is local to the user application. </p></p> <p>Message Column: Display message sent by users. Message gets text wrapped if length exceeds one line</p>||
+|tableChat|Table|<p>Bullet list:</p>
+
+<ul>
+<li>apples</li>
+<li>oranges</li>
+<li>pears</li>
+</ul>Displays the messages sent and received by application users. <p><p>Username Column: Colour is randomly assigned from web safe colour collection. Randomization is local to the user application. </p></p> <p>Message Column: Display message sent by users. Message gets text wrapped if length exceeds one line</p>||
 
 
 ### 4.4.4 Settings View
