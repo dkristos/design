@@ -170,7 +170,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |txtfieldInput|Text Field|User enters message to be sent to other reachable users||
 |btnBack|Button|Navigation Bar: Brings user back to Home View|→ Home View|
 |btnRefresh|Button|Navigation Bar: Refresh the Chat View|→ Chat View|
-|tableChat|Table|Displays the messages sent and received by application users.<br> Username Column: Colour is randomly assigned from web safe colour collection. Randomization is local to the user application. </p></p> <p>Message Column: Display message sent by users. Message gets text wrapped if length exceeds one line</p>||
+|tableChat|Table|Displays the messages sent and received by application users.<br> Username Column: Colour is randomly assigned from web safe colour collection. Randomization is local to the user application.<br> Message Column: Display message sent by users. Message gets text wrapped if length exceeds one line||
 
 
 ### 4.4.4 Settings View
@@ -181,9 +181,9 @@ This design shows how the user interacts with the front end of the app (GUI), an
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
 |btnBack|Button|Navigation Bar: Brings user back to Home View|→ Home View|
-|btnNotif|Button|Brings user to Notification View <p><p>Within a table with two columns: image and label</p></p> |→ Notification View|
-|btnReport|Button|Brings user to Report View <p><p>Within a table with two columns: image and label</p></p> |→ Report View|
-|btnAbout|Button|Brings user to About View <p><p>Within a table with two columns: image and label</p></p> |→ About View|
+|btnNotif|Button|Brings user to Notification View <br> Within a table with two columns: image and label|→ Notification View|
+|btnReport|Button|Brings user to Report View <br> Within a table with two columns: image and label<br> |→ Report View|
+|btnAbout|Button|Brings user to About View <br> Within a table with two columns: image and label<br> |→ About View|
 
 ### 4.4.5 Notification View 
 
@@ -192,9 +192,9 @@ This design shows how the user interacts with the front end of the app (GUI), an
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
 |btnBack|Button|Navigation Bar: Brings user back to Settings View|→ Setting View|
-|toggleShow|Toggle Button|Turns on/off application notification alerts <p><p>Within a table with two columns: label and toggle button</p></p> ||
-|toggleSound|Toggle Button|Turns on/off application notification sound alerts <p><p>Within a table with two columns: label and toggle button</p></p> ||
-|toggleVibrate|Toggle Button|Turns on/off application notification vibrate alerts <p><p>Within a table with two columns: label and toggle button</p></p> ||
+|toggleShow|Toggle Button|Turns on/off application notification alerts <br> Within a table with two columns: label and toggle button<br> ||
+|toggleSound|Toggle Button|Turns on/off application notification sound alerts <br> Within a table with two columns: label and toggle button<br> ||
+|toggleVibrate|Toggle Button|Turns on/off application notification vibrate alerts <br> Within a table with two columns: label and toggle button<br> ||
 |btnReset|Button|Resets options to default settings||
 
 ### 4.4.6 Report View 
@@ -207,7 +207,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |btnBack|Button|Navigation Bar: Brings user back to Settings View|→ Setting View|
 |btnSend|Button|Sends user report to the developer’s team email. Internet connection is required. If there is no access to the internet, a pop-up alert will tell user to turn on their WiFi connection. | |
 |lblDescribe|Label|Instructs user how to send the report.| |
-|txtfieldReport|Text Field|User inputs the message they want to send to the developer team. <p><p>If report is successfully received, text field will be cleared of the messaged typed.</p></p>|
+|txtfieldReport|Text Field|User inputs the message they want to send to the developer team. <br> If report is successfully received, text field will be cleared of the messaged typed.|
 
 ### 4.4.7 About View 
 
@@ -216,9 +216,9 @@ This design shows how the user interacts with the front end of the app (GUI), an
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
 |btnBack|Button|Navigation Bar: Brings user back to Settings View|→ Setting View|
-|btnTOS|Button|Brings user to terms of service and privacy policy documents. <p><p>Within a table: label and arrow button</p></p>|→ Terms of Service and Privacy Policy documents|
-|btnSources|Button|Brings user to Sources View with that credits all the third-party sources that were used to create the application <p><p>Within a table: label and arrow button</p></p>|→ Sources View|
-|btnTeam|Button|Brings user to Team View with details about the developer team <p><p>Within a table: label and arrow button</p></p>|→ Team View|
+|btnTOS|Button|Brings user to terms of service and privacy policy documents. <br> Within a table: label and arrow button<br> |→ Terms of Service and Privacy Policy documents|
+|btnSources|Button|Brings user to Sources View with that credits all the third-party sources that were used to create the application <p><p>Within a table: label and arrow button<br> |→ Sources View|
+|btnTeam|Button|Brings user to Team View with details about the developer team <br> Within a table: label and arrow button<br> |→ Team View|
 
 # 5. Detailed Design
 ## 5.1 Module Detailed Design
