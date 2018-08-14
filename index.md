@@ -140,6 +140,10 @@ This design shows how the user interacts with the front end of the app (GUI), an
 
 <img src="https://cp317s18.github.io/design/BluetoothID.png" align="left" hspace="20" />
 
+| Identification | Purpose |
+| ----- | ---- |
+| Bluetooth View | Instructs users to turn on their bluetooth in order to use Shout! This view will only be presented to the user if they do not have bluetooth already enabled. |
+
 | Field | Type | Description | Gesture | 
 | ----- | ---- | ----------- | ------- |
 |lblChat|Label|Describes purpose of application||
