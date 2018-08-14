@@ -163,7 +163,7 @@ This design shows how the user interacts with the front end of the app (GUI), an
 |imgLogo|Image|Application logo||
 |lblNumber|Label|Dynamic number displaying the amount of reachable people from user current position||
 |lblNearby|Label|Describes the purpose of the number||
-|lblDisclaimers|Label|A disclaimer statement | → Terms of Service |
+|lblDisclaimers|Label|A disclaimer statement | →Terms of Service |
 |btnEnter|Button|Allows entrance to Chat View only after a username has been submitted |→ Chat View |
 |btnSettings|Button| Brings user to the Settings View where they can change preferences | → Setting View |
 |txtfieldUsername | Text Field | Required username input before entrance to Chat View This is how the user will be identified in the chat. Must be distinct and 15 characters in length| |
